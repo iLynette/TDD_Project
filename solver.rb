@@ -18,13 +18,13 @@ class Solver
 
   def fizzbuzz(num)
     if (num % 3).zero? && (num % 5).zero?
-        'fizzbuzz'
+      'fizzbuzz'
     elsif (num % 5).zero?
-        'buzz'
+      'buzz'
     elsif (num % 3).zero?
-        'fizz'
+      'fizz'
     else
-        num.to_s
+      num.to_s
     end
   end
 end
