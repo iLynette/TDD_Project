@@ -11,4 +11,8 @@ describe Solver do
     it 'When N is divisible by 5, return "buzz"' do
       expect(@solver.fizzbuzz(5)).to eql 'buzz'
     end
+    it 'When N is divisible by 3 and 5, return "fizzbuzz"' do
+      expect(@solver.fizzbuzz(15)).to eql 'fizzbuzz'
+    end
+    
   end
